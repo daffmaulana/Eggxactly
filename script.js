@@ -1,4 +1,4 @@
-let timerInterval, isTIMernRunning = false;
+let timerInterval, isTIMERmRunning = false;
 
 document.getElementById('start').addEventListener('click', function() {
     if (isTIMERmRunning) {
