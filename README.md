@@ -25,3 +25,9 @@ The app is lightweight, interactive, and fun with an egg-themed user interface.
     ```bash
     cd eggxactly
 3. Run locally by opening index.html in your browser.
+
+## 🤖 AI Support for Development Project
+During development, AI (IBM Granite & ChatGPT) was used for:
+1. Providing UI/UX design ideas with an egg-themed ambience.
+2. Generating HTML, CSS & JavaScript code implement logic
+3. Assisting with debugging issues.
