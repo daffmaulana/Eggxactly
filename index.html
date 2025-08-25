@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eggxactly - The Exact Way to Boil Your Egg</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🥚 Eggxactly - The Egg Timer</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <div class="container">
-        <h1>Egg Timer</h1>
-        <select id="doneness">
-            <option value="3">Soft-Boiled (3 minutes)</option>
-            <option value="5">Medium-Boiled (5 minutes)</option>
-            <option value="8">Hard-Boiled (8 minutes)</option>
-        </select>
-        <div id="timer">0</div>
-        <button id="start">Start Timer</button>
+  <div class="container">
+    <h1>🥚 Eggxactly</h1>
+    <p class="subtitle">Boil your eggs the eggxact way!</p>
+
+    <div class="egg-shape">
+      <div id="timer">0</div>
     </div>
-    <script src="script.js"></script>
+
+    <label for="doneness" class="label">Select Egg Doneness</label>
+    <select id="doneness">
+      <option value="3">🍳 Soft-Boiled (3 min)</option>
+      <option value="5">🥚 Medium-Boiled (5 min)</option>
+      <option value="8">🍴 Hard-Boiled (8 min)</option>
+    </select>
+
+    <button id="start">Start Timer</button>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
