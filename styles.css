@@ -1,17 +1,105 @@
-body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0;
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/* Background - warm kitchen vibe */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: radial-gradient(circle at top, #fff9e6, #f7e4c8);
+  color: #333;
+}
+
+/* Container styling */
 .container {
-    text-align: center;
+  text-align: center;
+  background: #fffdf8;
+  padding: 2rem 2.5rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  max-width: 350px;
+  width: 90%;
+}
+
+/* Title */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.3rem;
+  color: #e07a5f;
+}
+
+.subtitle {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: #666;
+}
+
+/* Egg Shape for Timer */
+.egg-shape {
+  width: 150px;
+  height: 200px;
+  background: #fff;
+  border-radius: 50% 50% 45% 55% / 60% 60% 40% 40%;
+  margin: 0 auto 1.5rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 -8px 15px rgba(0,0,0,0.08), 0 5px 15px rgba(0,0,0,0.2);
 }
 
 #timer {
-    font-size: 3rem;
-    margin-top: 20px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #e07a5f;
+}
+
+/* Dropdown */
+.label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+select {
+  padding: 0.6rem;
+  font-size: 1rem;
+  border-radius: 0.7rem;
+  border: 2px solid #e07a5f;
+  margin-bottom: 1.5rem;
+  cursor: pointer;
+  outline: none;
+  background: #fff;
+  color: #333;
+  transition: 0.3s;
+}
+
+select:hover {
+  background: #fff3eb;
+}
+
+/* Button */
+button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.7rem;
+  background: #e07a5f;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.1s;
+}
+
+button:hover {
+  background: #d35a3c;
+}
+
+button:active {
+  transform: scale(0.95);
 }
