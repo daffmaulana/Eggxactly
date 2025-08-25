@@ -20,7 +20,7 @@ The app is lightweight, interactive, and fun with an egg-themed user interface.
 ## ⚙️ Setup Instructions
 1. Clone this repository:
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/daffmaulana/Eggxactly.git
 2. Navigate into the project folder:
     ```bash
     cd eggxactly
