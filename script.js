@@ -84,6 +84,12 @@ function startTimer() {
         if (timerDuration < 0) {
             clearInterval(timerInterval);
             document.getElementById('timer').textContent = 'Done!';
+        
+            // 🔔 Play alarm sound
+            const alarm = document.getElementById('alarm-sound');
+            alarm.currentTime = 0; // rewind to start
+            alarm.play();
+        
             alert('Your ' + minutes + '-minute ' + getDoneness() + ' egg is ready! 🥚');
             isTIMERmRunning = false;
             document.getElementById('start').innerHTML = 'Start';
