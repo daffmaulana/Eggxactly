@@ -39,7 +39,7 @@ function getDoneness() {
 
 function startTimer() {
     const minutes = document.getElementById('doneness').value;
-    let timerDuration = parseInt(minutes) * 60;
+    let timerDuration = parseInt(minutes) * 60; // Declare timerDuration here
 
     isTIMERmRunning = true;
     timerInterval = setInterval(() => {
